@@ -1,0 +1,2736 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="CDA.xsl"?>
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ../../../CDA%20R2/cda-schemas-and-samples/infrastructure/cda/CDA.xsd" xmlns="urn:hl7-org:v3" xmlns:cda="urn:hl7-org:v3" xmlns:sdtc="urn:l7-org:sdtc" xmlns:fhir="http://hl7.org/fhir/v3">
+ <realmCode code="US"/>
+ <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
+ <templateId root="2.16.840.1.113883.10.20.22.1.2"/>
+ <id extension="Health Export CDA" root="1.1.1.1.1.1.1.1.1"/>
+ <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" code="34109-9" displayName="Note"/>
+ <title>Health Data Export</title>
+ <effectiveTime value="20160523182721+0100"/>
+ <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+ <recordTarget>
+  <patientRole>
+   <id root="2.16.840.1.113883.4.6" nullFlavor="NA"/>
+   <patient>
+    <name use="CL">Tom Wallis</name>
+    <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1" displayName="Male"/>
+    <birthTime value="19940413"/>
+   </patient>
+  </patientRole>
+ </recordTarget>
+ <component>
+  <section>
+   <templateId root="2.16.840.1.113883.10.20.22.2.3.1"/>
+   <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" code="30954-2" displayName="RESULTS"/>
+   <title>Results</title>
+   <text/>
+   <entry typeCode="DRIV">
+    <organizer classCode="BATTERY" moodCode="EVN">
+     <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+     <id root="7d5a02b0-67a4-11db-bd13-0800200c9a66"/>
+     <code xsi:type="CE" code="386053000" displayName="Result" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"/>
+     <statusCode code="completed"/>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>1000</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20150626010000+0100"/>
+        <high value="20150626010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="1000" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>2000</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20150627010000+0100"/>
+        <high value="20150627010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="2000" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>2250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20150628010000+0100"/>
+        <high value="20150628010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="2250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20150630010000+0100"/>
+        <high value="20150630010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>2250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20150701010000+0100"/>
+        <high value="20150701010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="2250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>750</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20150709010000+0100"/>
+        <high value="20150709010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="750" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20150710010000+0100"/>
+        <high value="20150710010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20150713010000+0100"/>
+        <high value="20150713010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20150716010000+0100"/>
+        <high value="20150716010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>1500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20150717010000+0100"/>
+        <high value="20150717010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="1500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20150719010000+0100"/>
+        <high value="20150719010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>1500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20150720010000+0100"/>
+        <high value="20150720010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="1500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>1750</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20150722010000+0100"/>
+        <high value="20150722010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="1750" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>1750</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20150723010000+0100"/>
+        <high value="20150723010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="1750" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>2000</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20150724010000+0100"/>
+        <high value="20150724010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="2000" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>1500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20150801010000+0100"/>
+        <high value="20150801010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="1500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20150804010000+0100"/>
+        <high value="20150804010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>2000</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20151124010000+0100"/>
+        <high value="20151124010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="2000" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>1500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20151125010000+0100"/>
+        <high value="20151125010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="1500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.0.3</sourceVersion>
+        <value>2250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20151126010000+0100"/>
+        <high value="20151126010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="2250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20151224120226+0100"/>
+        <high value="20151224120226+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20151224165836+0100"/>
+        <high value="20151224165836+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20151226104502+0100"/>
+        <high value="20151226104502+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20151227092801+0100"/>
+        <high value="20151227092801+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20151228025437+0100"/>
+        <high value="20151228025437+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20151228025443+0100"/>
+        <high value="20151228025443+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20151228154745+0100"/>
+        <high value="20151228154745+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20151229124430+0100"/>
+        <high value="20151229124430+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20151230113227+0100"/>
+        <high value="20151230113227+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20151231142116+0100"/>
+        <high value="20151231142116+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20151231155552+0100"/>
+        <high value="20151231155552+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160102143831+0100"/>
+        <high value="20160102143831+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160102214522+0100"/>
+        <high value="20160102214522+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160102220316+0100"/>
+        <high value="20160102220316+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160102230313+0100"/>
+        <high value="20160102230313+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160103194012+0100"/>
+        <high value="20160103194012+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160103201732+0100"/>
+        <high value="20160103201732+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160103201758+0100"/>
+        <high value="20160103201758+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160104004342+0100"/>
+        <high value="20160104004342+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160104105732+0100"/>
+        <high value="20160104105732+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160105165303+0100"/>
+        <high value="20160105165303+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160105233140+0100"/>
+        <high value="20160105233140+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160106100937+0100"/>
+        <high value="20160106100937+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160108123735+0100"/>
+        <high value="20160108123735+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160109145902+0100"/>
+        <high value="20160109145902+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160109145904+0100"/>
+        <high value="20160109145904+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160112151605+0100"/>
+        <high value="20160112151605+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>304</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160112151613+0100"/>
+        <high value="20160112151613+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.8.2</sourceVersion>
+        <value>1000</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160410225840+0100"/>
+        <high value="20160410225840+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="1000" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160423150649+0100"/>
+        <high value="20160423150649+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160423150714+0100"/>
+        <high value="20160423150714+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.9.1</sourceVersion>
+        <value>2250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160424214502+0100"/>
+        <high value="20160424214502+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="2250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.9.1</sourceVersion>
+        <value>1500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160426224531+0100"/>
+        <high value="20160426224531+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="1500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.9.1</sourceVersion>
+        <value>1500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160427000259+0100"/>
+        <high value="20160427000259+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="1500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.9.1</sourceVersion>
+        <value>1750</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160428185017+0100"/>
+        <high value="20160428185017+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="1750" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.9.1</sourceVersion>
+        <value>1250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160501225538+0100"/>
+        <high value="20160501225538+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="1250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.9.1</sourceVersion>
+        <value>1750</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160502232853+0100"/>
+        <high value="20160502232853+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="1750" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.9.1</sourceVersion>
+        <value>1500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160503171942+0100"/>
+        <high value="20160503171942+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="1500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.9.1</sourceVersion>
+        <value>1750</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160504110201+0100"/>
+        <high value="20160504110201+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="1750" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.9.1</sourceVersion>
+        <value>1000</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160505171931+0100"/>
+        <high value="20160505171931+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="1000" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.9.1</sourceVersion>
+        <value>2250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160507044412+0100"/>
+        <high value="20160507044412+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="2250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Health</sourceName>
+        <sourceVersion>9.3.1</sourceVersion>
+        <value>750</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+        <metadataEntry>
+         <key>HKWasUserEntered</key>
+         <value>1</value>
+        </metadataEntry>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160508235900+0100"/>
+        <high value="20160508235900+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="750" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>1750</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160509180849+0100"/>
+        <high value="20160509180849+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="1750" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160509194455+0100"/>
+        <high value="20160509194455+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>375</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160510100907+0100"/>
+        <high value="20160510100907+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="375" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>1000</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160510155535+0100"/>
+        <high value="20160510155535+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="1000" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Health</sourceName>
+        <sourceVersion>9.3.1</sourceVersion>
+        <value>750</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+        <metadataEntry>
+         <key>HKWasUserEntered</key>
+         <value>1</value>
+        </metadataEntry>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160510235900+0100"/>
+        <high value="20160510235900+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="750" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160511090443+0100"/>
+        <high value="20160511090443+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160511123443+0100"/>
+        <high value="20160511123443+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160511140712+0100"/>
+        <high value="20160511140712+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160511142308+0100"/>
+        <high value="20160511142308+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160511161251+0100"/>
+        <high value="20160511161251+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160511180900+0100"/>
+        <high value="20160511180900+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160515195350+0100"/>
+        <high value="20160515195350+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160515195403+0100"/>
+        <high value="20160515195403+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160515195412+0100"/>
+        <high value="20160515195412+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>350</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160516165305+0100"/>
+        <high value="20160516165305+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="350" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>350</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160516172434+0100"/>
+        <high value="20160516172434+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="350" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160516194206+0100"/>
+        <high value="20160516194206+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160516194218+0100"/>
+        <high value="20160516194218+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160516194221+0100"/>
+        <high value="20160516194221+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160516204107+0100"/>
+        <high value="20160516204107+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160517131312+0100"/>
+        <high value="20160517131312+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160517163439+0100"/>
+        <high value="20160517163439+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160517170421+0100"/>
+        <high value="20160517170421+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160517181126+0100"/>
+        <high value="20160517181126+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160518150010+0100"/>
+        <high value="20160518150010+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>1000</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160520105231+0100"/>
+        <high value="20160520105231+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="1000" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>250</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160520115331+0100"/>
+        <high value="20160520115331+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="250" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>125</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160520141332+0100"/>
+        <high value="20160520141332+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="125" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160521201336+0100"/>
+        <high value="20160521201336+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160522123321+0100"/>
+        <high value="20160522123321+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160522123337+0100"/>
+        <high value="20160522123337+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>1000</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160522233513+0100"/>
+        <high value="20160522233513+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="1000" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>500</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160523104509+0100"/>
+        <high value="20160523104509+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="500" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="251853006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Oral fluid input"/>
+       <text>
+        <sourceName>Workflow</sourceName>
+        <sourceVersion>324</sourceVersion>
+        <value>350</value>
+        <type>HKQuantityTypeIdentifierDietaryWater</type>
+        <unit>mL</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160523122353+0100"/>
+        <high value="20160523122353+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="350" unit="mL"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+    </organizer>
+   </entry>
+  </section>
+ </component>
+ <component>
+  <section>
+   <templateId root="2.16.840.1.113883.10.20.22.2.4.1"/>
+   <code codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" code="8716-3" displayName="VITAL SIGNS"/>
+   <title>Vital Signs</title>
+   <text/>
+   <entry typeCode="DRIV">
+    <organizer classCode="CLUSTER" moodCode="EVN">
+     <templateId root="2.16.840.1.113883.10.20.22.4.26"/>
+     <id root="c6f88320-67ad-11db-bd13-0800200c9a66"/>
+     <code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Vital signs"/>
+     <statusCode code="completed"/>
+     <effectiveTime>
+      <low value="20150626000000+0100"/>
+      <high value="20160508000000+0100"/>
+     </effectiveTime>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>28.7317</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20150626000000+0100"/>
+        <high value="20150626000000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="28.7317" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>25.0135</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20151124010000+0100"/>
+        <high value="20151124010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="25.0135" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.8.2</sourceVersion>
+        <value>26.3656</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160410000000+0100"/>
+        <high value="20160410000000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="26.3656" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.8.2</sourceVersion>
+        <value>26.3656</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160410000000+0100"/>
+        <high value="20160410000000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="26.3656" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.9.1</sourceVersion>
+        <value>25.3515</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160424000000+0100"/>
+        <high value="20160424000000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="25.3515" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.9.1</sourceVersion>
+        <value>25.1825</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160427000000+0100"/>
+        <high value="20160427000000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="25.1825" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.9.1</sourceVersion>
+        <value>25.1825</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160427000000+0100"/>
+        <high value="20160427000000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="25.1825" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.9.1</sourceVersion>
+        <value>25.3515</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160503000000+0100"/>
+        <high value="20160503000000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="25.3515" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>6.0.2</sourceVersion>
+        <value>25.0135</value>
+        <type>HKQuantityTypeIdentifierBodyMassIndex</type>
+        <unit>count</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160508000000+0100"/>
+        <high value="20160508000000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="25.0135" unit="count"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+    </organizer>
+   </entry>
+   <entry typeCode="DRIV">
+    <organizer classCode="CLUSTER" moodCode="EVN">
+     <templateId root="2.16.840.1.113883.10.20.22.4.26"/>
+     <id root="c6f88320-67ad-11db-bd13-0800200c9a66"/>
+     <code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Vital signs"/>
+     <statusCode code="completed"/>
+     <effectiveTime>
+      <low value="20151216010915+0100"/>
+      <high value="20151216010941+0100"/>
+     </effectiveTime>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="8302-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Height"/>
+       <text>
+        <sourceName>Pebble</sourceName>
+        <sourceVersion>20151208230150</sourceVersion>
+        <value>180</value>
+        <type>HKQuantityTypeIdentifierHeight</type>
+        <unit>cm</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20151216010915+0100"/>
+        <high value="20151216010915+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="180" unit="cm"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="8302-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Height"/>
+       <text>
+        <sourceName>Pebble</sourceName>
+        <sourceVersion>20151208230150</sourceVersion>
+        <value>172</value>
+        <type>HKQuantityTypeIdentifierHeight</type>
+        <unit>cm</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20151216010941+0100"/>
+        <high value="20151216010941+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="172" unit="cm"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+    </organizer>
+   </entry>
+   <entry typeCode="DRIV">
+    <organizer classCode="CLUSTER" moodCode="EVN">
+     <templateId root="2.16.840.1.113883.10.20.22.4.26"/>
+     <id root="c6f88320-67ad-11db-bd13-0800200c9a66"/>
+     <code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Vital signs"/>
+     <statusCode code="completed"/>
+     <effectiveTime>
+      <low value="20150626000000+0100"/>
+      <high value="20160523103900+0100"/>
+     </effectiveTime>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>85</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20150626000000+0100"/>
+        <high value="20150626000000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="85" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>4.8.20</sourceVersion>
+        <value>74</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20151124010000+0100"/>
+        <high value="20151124010000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="74" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>Misfit</sourceName>
+        <sourceVersion>987</sourceVersion>
+        <value>74</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20151218100641+0100"/>
+        <high value="20151218100641+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="74" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.8.2</sourceVersion>
+        <value>78</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160410000000+0100"/>
+        <high value="20160410000000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="78" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.8.2</sourceVersion>
+        <value>78</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160410000000+0100"/>
+        <high value="20160410000000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="78" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.9.1</sourceVersion>
+        <value>75</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160424000000+0100"/>
+        <high value="20160424000000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="75" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.9.1</sourceVersion>
+        <value>74.5</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160427000000+0100"/>
+        <high value="20160427000000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="74.5" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.9.1</sourceVersion>
+        <value>74.5</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160427000000+0100"/>
+        <high value="20160427000000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="74.5" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>5.9.1</sourceVersion>
+        <value>75</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160503000000+0100"/>
+        <high value="20160503000000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="75" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>MyFitnessPal</sourceName>
+        <sourceVersion>15092</sourceVersion>
+        <value>74</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160507093700+0100"/>
+        <high value="20160507093700+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="74" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>Lifesum</sourceName>
+        <sourceVersion>6.0.2</sourceVersion>
+        <value>74</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160508000000+0100"/>
+        <high value="20160508000000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="74" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>MyFitnessPal</sourceName>
+        <sourceVersion>15092</sourceVersion>
+        <value>73.0003</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160509154400+0100"/>
+        <high value="20160509154400+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="73.0003" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>MyFitnessPal</sourceName>
+        <sourceVersion>15092</sourceVersion>
+        <value>73.0003</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160510121000+0100"/>
+        <high value="20160510121000+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="73.0003" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>MyFitnessPal</sourceName>
+        <sourceVersion>15092</sourceVersion>
+        <value>72.4999</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160515103800+0100"/>
+        <high value="20160515103800+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="72.4999" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>MyFitnessPal</sourceName>
+        <sourceVersion>15092</sourceVersion>
+        <value>72.4999</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160516154400+0100"/>
+        <high value="20160516154400+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="72.4999" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>MyFitnessPal</sourceName>
+        <sourceVersion>15092</sourceVersion>
+        <value>73.0003</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160518103900+0100"/>
+        <high value="20160518103900+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="73.0003" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>MyFitnessPal</sourceName>
+        <sourceVersion>15092</sourceVersion>
+        <value>73.0003</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160519103800+0100"/>
+        <high value="20160519103800+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="73.0003" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>MyFitnessPal</sourceName>
+        <sourceVersion>15092</sourceVersion>
+        <value>73.5001</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160522103900+0100"/>
+        <high value="20160522103900+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="73.5001" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+     <component>
+      <observation classCode="OBS" moodCode="EVN">
+       <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+       <id root="c6f88321-67ad-11db-bd13-0800200c9a66"/>
+       <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body weight Measured"/>
+       <text>
+        <sourceName>MyFitnessPal</sourceName>
+        <sourceVersion>15092</sourceVersion>
+        <value>73.5001</value>
+        <type>HKQuantityTypeIdentifierBodyMass</type>
+        <unit>kg</unit>
+       </text>
+       <statusCode code="completed"/>
+       <effectiveTime>
+        <low value="20160523103900+0100"/>
+        <high value="20160523103900+0100"/>
+       </effectiveTime>
+       <value xsi:type="PQ" value="73.5001" unit="kg"/>
+       <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+      </observation>
+     </component>
+    </organizer>
+   </entry>
+  </section>
+ </component>
+</ClinicalDocument>
